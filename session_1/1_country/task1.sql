@@ -12,4 +12,4 @@
 
 -- write your sql code here
 
-SELECT * from countries;
+SELECT Country FROM countries WHERE Birthrate > Deathrate AND Population > '50000000';
